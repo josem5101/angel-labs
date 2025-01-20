@@ -8,12 +8,21 @@
         body {
             margin: 0;
             padding: 0;
-            background: url('https://raw.githubusercontent.com/josem5101/angel-labs/c9b80fc9f99a15fec0abe9102e56f837446ae6cd/coming%20soon%20background%20002.JPG') no-repeat center center fixed;
-            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000; /* Optional: Background color for any empty space */
             height: 100vh;
+            overflow: hidden;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Ensures the image scales proportionally */
         }
     </style>
 </head>
 <body>
+    <img src="https://raw.githubusercontent.com/josem5101/angel-labs/c9b80fc9f99a15fec0abe9102e56f837446ae6cd/coming%20soon%20background%20002.JPG" alt="Coming Soon Background">
 </body>
 </html>
